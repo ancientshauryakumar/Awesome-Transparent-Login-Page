@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('Images/Bg.png')no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 2px solid rgba(73, 73, 73, 0.705);
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 29%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container h1{
+    font-size: 40px;
+    margin-bottom: 43px;
+    margin: 13px 0px;
+}
+.box{
+    width: 100%;
+    /* border-bottom: 2px solid white; */
+}
+.box input{
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    width: 75%;
+    font-size: 20px;
+    margin: 13px 0px;
+    padding: 5px 0px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 0px;
+    margin-left: 44px;
+    padding: 10px;
+    border: none;
+}
+.btn:hover{
+   border: 2px solid rgb(0, 0, 0);
+}
+.btn:hover{
+   border: 2px solid rgb(0, 0, 0);
+}
+.box i{
+    padding: 0px 12px;
+}
+.btn a:active{
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
